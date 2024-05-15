@@ -1,0 +1,46 @@
+<characters>
+<selfmade_character>
+<dir value="black-frost"/>
+<name value="じゃあくフロスト"/>
+</selfmade_character>
+<selfmade_character>
+<dir value="demonee-ho"/>
+<name value="デモニホ"/>
+</selfmade_character>
+<selfmade_character>
+<dir value="black-demonee-ho"/>
+<name value="ブラックデモニホ"/>
+</selfmade_character>
+<selfmade_character>
+<dir value="maya"/>
+<name value="マーヤ"/>
+</selfmade_character>
+<selfmade_character>
+<dir value="phecda"/>
+<name value="フェクダ"/>
+</selfmade_character>
+<selfmade_character>
+<dir value="diana"/>
+<name value="ダイアナ"/>
+</selfmade_character>
+<selfmade_character>
+<dir value="lucifer_frost"/>
+<name value="ルシファフロスト"/>
+</selfmade_character>
+<other_character>
+<dir value="norn"/>
+<name value="ノルン"/>
+</other_character>
+<other_character>
+<dir value="jackfrost"/>
+<name value="ジャックフロスト"/>
+</other_character>
+<other_character>
+<dir value="magadama"/>
+<name value="マガダマ"/>
+</other_character>
+<other_character>
+<dir value="frostace"/>
+<name value="フロストエース"/>
+</other_character>
+</characters>
