@@ -1,0 +1,14 @@
+function header(){
+  var html = '';
+  html += '<div class="header">';
+  html += '<div class="header_title"></div>';
+  html += '<div class="header_menu_bar">';
+  html += '</div>';
+  html += '</div>';
+  document.write(html);
+}
+
+function footer(){
+  var html = '<div class="footer"><p>Copyright ©Come Come Cat Food All Rights Reserved</p></div>'
+  document.write(html);
+}
