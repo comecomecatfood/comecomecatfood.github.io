@@ -187,7 +187,9 @@ body {
   max-width: 840px}
 
 .main_picture {
-  width: 100%;}
+  width: 400px;
+  margin: auto;
+}
 
 .main_picture img{
   line-height: 1.2;
