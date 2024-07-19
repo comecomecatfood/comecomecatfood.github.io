@@ -12,12 +12,8 @@
     <name value="魔術師の仮面"/>
   </selfmade_character>
   <selfmade_character>
-    <dir value="magicians_mask_pin"/>
-    <name value="魔術師の仮面ブローチ"/>
-  </selfmade_character>
-  <selfmade_character>
-    <dir value="highpriestess_mask"/>
-    <name value="女教皇の仮面ブローチ"/>
+    <dir value="shadows_mask"/>
+    <name value="シャドウの仮面"/>
   </selfmade_character>
 <!--
 <selfmade_character>
