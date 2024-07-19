@@ -1,17 +1,22 @@
 <characters>
-  <dir value="decarabia"/>
+  <selfmade_character>
+    <dir value="decarabia"/>
     <name value="デカラビア"/>
   </selfmade_character>
-  <dir value="mokoi"/>
+  <selfmade_character>
+    <dir value="mokoi"/>
     <name value="モコイ"/>
   </selfmade_character>
-  <dir value="magicians_mask"/>
+  <selfmade_character>
+    <dir value="magicians_mask"/>
     <name value="魔術師の仮面"/>
   </selfmade_character>
-  <dir value="magicians_mask_pin"/>
+  <selfmade_character>
+    <dir value="magicians_mask_pin"/>
     <name value="魔術師の仮面ブローチ"/>
   </selfmade_character>
-  <dir value="highpriestess_mask"/>
+  <selfmade_character>
+    <dir value="highpriestess_mask"/>
     <name value="女教皇の仮面ブローチ"/>
   </selfmade_character>
 <!--
