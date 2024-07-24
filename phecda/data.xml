@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <number_of_picture value="9"/>
+    <name value="マーヤ"/>
+    <name_en value="Maya"/>
+    <title value="ペルソナ3"/>
+    <events>
+        <event value="ワンダーフェステイバル2015(冬)"/>
+    </events>
+    <value value='ピアス 3000円/ピンバッチ 3500円'/>
+    <specifications>
+        <specification value="完成品"/>
+        <specification value="ピアス or ピンバッチ"/>
+        <specification value="スタンド"/>
+    </specifications>
+    <text value="ペルソナ3に登場するシャドウ。ゲーム内ではアルカナの種類ごとに仮面が異なる種が存在し、それをモチーフに作成しました。仮面の部分はピンバッチやピアスに加工しアクセサリーとしても使用できるようなものにしており、マーヤはスタンドとしての役割を果たしています。"/>
+</data>
