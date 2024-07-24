@@ -5,14 +5,14 @@ function header(){
   html += '<div class="header_menu_bar">';
   html += '<ul>';
   html += '<li class="header_menu_list">';
-  html += '<a class="header_menu_button" href="http://twitter.com/wakoyou">Twitter</a>';
+  html += '<a class="header_menu_button" href="http://twitter.com/wakoyou">X</a>';
   html += '</li>';
   html += '<li class="header_menu_list" id="gallery_list">';
   html += '<a class="header_menu_button" id="gallery_button" href="/">Gallery</a>';
   html += '</li>';
-  html += '<li class="header_menu_list" id="review_list">';
-  html += '<a class="header_menu_button"id="review_button" href="/review">Review</a>';
-  html += '</li>';
+  // html += '<li class="header_menu_list" id="review_list">';
+  // html += '<a class="header_menu_button"id="review_button" href="/review">Review</a>';
+  // html += '</li>';
   html += '</ul>';
   html += '</div>';
   html += '</div>';
