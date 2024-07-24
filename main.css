@@ -24,7 +24,7 @@ hr {
   background: #acacac;
   }
 .main {
-  width: 1000px;
+  width: 950px;
   margin: auto;
 }
 
@@ -80,7 +80,7 @@ figure:hover figcaption {
 /* header
  */
 .header {
-  width: 1045px;
+  width: 1000px;
   margin: auto;
   font-family: "Avenir Next"; }
 
@@ -184,7 +184,7 @@ body {
 .character_main {
   margin: auto;
   margin-top: 2px;
-  max-width: 1000px}
+  max-width: 950px}
 
 .main_picture {
   width: 400px;
