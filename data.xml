@@ -25,12 +25,10 @@
   <dir value="diana"/>
   <name value="ダイアナ"/>
   </selfmade_character>
-<!--
   <selfmade_character>
   <dir value="lucifer_frost"/>
   <name value="ルシファフロスト"/>
   </selfmade_character>
--->
   <selfmade_character>
     <dir value="decarabia"/>
     <name value="デカラビア"/>
@@ -47,6 +45,7 @@
     <dir value="shadows_mask"/>
     <name value="シャドウの仮面"/>
   </selfmade_character>
+
   <other_character>
   <dir value="norn"/>
   <name value="ノルン"/>
