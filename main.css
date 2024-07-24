@@ -28,7 +28,7 @@ hr {
   background: #acacac;
   }
 .main {
-  width: 1000px;
+  width: 1045px;
   margin: auto;
 }
 
@@ -201,11 +201,12 @@ body {
 .post-header {
   background-color: rgba(0,0,0,.6);}
 .thumbnail-list {
-  margin-top: 5px;
+  margin-top: 5px 0 20px 0;
 }
 .thumbnail {
   margin-right: 5px;
-  width: 10%;}
+  width: 75px;
+}
 
 .character_name{
     margin-top: 0;
