@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <number_of_picture value="5"/>
+    <name value="ブラックデモニホ"/>
+    <name_en value="Black Demonee-ho"/>
+    <title value="真・女神転生 STRANGE JOURNEY"/>
+    <events>
+        <event value="トレジャーフェスタin有明12"/>
+        <event value="ワンダーフェステイバル2015(冬)"/>
+        <event value="ワンダーフェステイバル2015(夏)"/>
+        <event value="ワンダーフェステイバル2016(冬)"/>
+        <event value="ワンダーフェステイバル2016(夏) 予定"/>
+    </events>
+    <specifications>
+        <specification value="ねんどろいど仕様"/>
+        <specification value="未塗装組み立てキット"/>
+    </specifications>
+    <value value='5000円'/>
+    <text value="デモニホのリペイント版。真4に登場する黒きサムライ、ブラックデモニホをモチーフに作成しました。頭部はじゃあくフロストにしています。イベントに間に合わせで作成したので首のパーツがなかったり、ガントレットが未塗装だったり色々足りていません・・・"/>
+</data>
