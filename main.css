@@ -24,7 +24,7 @@ hr {
   background: #acacac;
   }
 .main {
-  width: 950px;
+  width: 960px;
   margin: auto;
 }
 
@@ -184,7 +184,7 @@ body {
 .character_main {
   margin: auto;
   margin-top: 2px;
-  max-width: 950px}
+  max-width: 960px}
 
 .main_picture {
   width: 400px;
