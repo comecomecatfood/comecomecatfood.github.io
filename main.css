@@ -201,7 +201,7 @@ body {
 .post-header {
   background-color: rgba(0,0,0,.6);}
 .thumbnail-list {
-  margin-top: 5px 0 20px 0;
+  margin: 5px 0 20px 0;
 }
 .thumbnail {
   margin-right: 5px;
