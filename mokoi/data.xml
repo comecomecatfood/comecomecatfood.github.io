@@ -1,14 +1,15 @@
 <data>
-<number_of_picture value="5"/>
-<name value="モコイ"/>
-<name_en value="Mokoi"/>
-<title value="真･女神転生 デビルチルドレン 黒の書・赤の書"/>
-<events>
-<event value="ワンダーフェステイバル2024(夏)"/>
-</events>
-<specifications>
-<specification value="完成品"/>
-</specifications>
-<value value="15000円"/>
-<text value=""/>
+  <number_of_picture value="5"/>
+  <name value="モコイ"/>
+  <name_en value="Mokoi"/>
+  <title value="真･女神転生 デビルチルドレン 黒の書・赤の書"/>
+  <events>
+    <event value="ワンダーフェステイバル2024(夏)"/>
+    <event value="ワンダーフェステイバル2025(冬)"/>
+  </events>
+  <specifications>
+    <specification value="完成品"/>
+  </specifications>
+  <value value="12000円(WF2024S時15000円)"/>
+  <text value=""/>
 </data>

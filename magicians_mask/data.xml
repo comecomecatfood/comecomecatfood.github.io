@@ -1,15 +1,16 @@
 <data>
-<number_of_picture value="2"/>
-<name value="魔術師の仮面"/>
-<name_en value="Magician's Mask"/>
-<title value="ペルソナ3リロード"/>
-<events>
-<event value="ワンダーフェステイバル2024(夏)"/>
-</events>
-<specifications>
-<specification value="完成品"/>
-<specification value="蓄光"/>
-</specifications>
-<value value="7000円"/>
-<text value=""/>
+  <number_of_picture value="2"/>
+  <name value="魔術師の仮面"/>
+  <name_en value="Magician's Mask"/>
+  <title value="ペルソナ3リロード"/>
+  <events>
+    <event value="ワンダーフェステイバル2024(夏)"/>
+    <event value="ワンダーフェステイバル2025(冬)"/>
+  </events>
+  <specifications>
+    <specification value="完成品"/>
+    <specification value="蓄光"/>
+  </specifications>
+  <value value="4000円(WF2024S時7000円)"/>
+  <text value=""/>
 </data>
