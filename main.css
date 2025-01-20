@@ -85,7 +85,7 @@ figure:hover figcaption {
   font-family: "Avenir Next"; }
 
 .header_menu_bar {
-  padding-left: 10%;
+  padding-left: 600px;
   display: inline-block; }
 
 .header_menu_bar ul {
@@ -98,10 +98,6 @@ figure:hover figcaption {
   height: 40px;
   color: #181A19;
   padding-bottom: 25px; }
-
-.header_menu_list:hover {
-  background-color: #333333;
-  color: #FFFFFF; }
 
 .header_menu_list:hover ul {
   display: block; }
@@ -167,7 +163,17 @@ figure:hover figcaption {
   background-size: cover;
   width: 285px;
   height: 25px;
-  margin: 20px;}
+  margin: 20px;
+  cursor:pointer;
+}
+
+.header_x {
+  background: url("/logo_x.png");
+  background-size: cover;
+  margin-top: 25px;
+  cursor: pointer;
+  padding: 10px;
+}
 
 .container {
   position: relative;
