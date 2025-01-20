@@ -30,14 +30,6 @@
   <name value="ルシファフロスト"/>
   </selfmade_character>
   <selfmade_character>
-    <dir value="decarabia"/>
-    <name value="デカラビア"/>
-  </selfmade_character>
-  <selfmade_character>
-    <dir value="mokoi"/>
-    <name value="モコイ"/>
-  </selfmade_character>
-  <selfmade_character>
     <dir value="magicians_mask"/>
     <name value="魔術師の仮面"/>
   </selfmade_character>
@@ -46,9 +38,19 @@
     <name value="シャドウの仮面"/>
   </selfmade_character>
   <selfmade_character>
+    <dir value="mokoi"/>
+    <name value="モコイ"/>
+  </selfmade_character>
+  <selfmade_character>
+    <dir value="decarabia"/>
+    <name value="デカラビア"/>
+  </selfmade_character>
+<!--
+  <selfmade_character>
     <dir value="magic_circle"/>
     <name value="邪教の館 魔法陣"/>
   </selfmade_character>
+-->
 
   <other_character>
     <dir value="norn"/>

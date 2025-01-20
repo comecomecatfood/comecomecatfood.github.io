@@ -33,7 +33,8 @@ $(function(){
     })(this),
     success: (function(_this) {
       return function(xml) {
-        $(xml).find('selfmade_character').each(set_character);
+        var sc = $(xml).find('selfmade_character').toArray().reverse();
+        $(sc).each(set_character);
       };
     })(this)
   });
