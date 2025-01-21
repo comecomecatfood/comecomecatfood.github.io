@@ -45,12 +45,10 @@
     <dir value="decarabia"/>
     <name value="デカラビア"/>
   </selfmade_character>
-<!--
   <selfmade_character>
     <dir value="magic_circle"/>
     <name value="邪教の館 魔法陣"/>
   </selfmade_character>
--->
 
   <other_character>
     <dir value="norn"/>
