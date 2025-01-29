@@ -1,0 +1,10 @@
+<data>
+    <title value="ワンダーフェスティバル2025冬" />
+    <items>
+      <item dir="magic_circle" new="true"/>
+      <item dir="decarabia" new="false"/>
+      <item dir="mokoi" new="false"/>
+      <item dir="shadows_mask" new="false"/>
+      <item dir="magicians_mask" new="false"/>
+    </items>
+</data>

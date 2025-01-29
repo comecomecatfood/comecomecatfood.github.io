@@ -29,7 +29,10 @@ set_param = function(param) {
 
   param.find('specifications').find('specification').each(set_specification);
 
-  var value = param.find('value').attr('value');
+  var value = "";
+  for (var i = 0; i < param.find('value').length; i++){
+    value = value + $(param.find('value')[i]).attr('value');
+  }
   var value_element = document.getElementById('value');
   value_element.innerHTML = value;
 };

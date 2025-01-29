@@ -23,9 +23,17 @@ hr {
   border: 0;
   background: #acacac;
   }
-.main {
+.main, .dashboard, .items{
   width: 960px;
   margin: auto;
+}
+
+.dashboard a {
+    text-decoration: none;
+    color: #0a62ad;
+    font-weight: bold;
+    padding: 10px 0 20px 0;
+    display:block;
 }
 
 .footer {
@@ -52,9 +60,9 @@ div#unitedblades_div {
 figure {
   position: relative;
   overflow: hidden;
-  width: 24%;
+  width: calc(25% - 4px);
   display: inline-block;
-  margin: 2;
+  margin: 2px;
 }
 figure img {
   width: 100%;
@@ -216,4 +224,12 @@ figcaption .character_name{
 }
 p {
   margin:0;
+}
+
+.item {
+    display:contents;
+}
+.item_img {
+    width: calc(25% - 4px);
+    margin: 2px;
 }

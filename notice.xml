@@ -1,0 +1,8 @@
+<data>
+  <events title="ワンダーフェスティバル2025冬">
+    <notice enable="true" title="お品書き" dir="wf2025w"/>
+  </events>
+  <events title="ワンダーフェスティバル2024夏">
+    <notice enable="false" title="お品書き" dir="wf2024s"/>
+  </events>
+</data>
