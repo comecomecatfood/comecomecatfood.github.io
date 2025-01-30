@@ -227,9 +227,10 @@ p {
 }
 
 .item {
-    display:contents;
-}
-.item_img {
+    display: inline-block;
     width: calc(25% - 4px);
     margin: 2px;
+}
+.item_img {
+    width: 100%;
 }

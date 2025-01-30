@@ -9,11 +9,22 @@ set_items = function(index, element) {
   item_element.className = 'item';
   var a_element = document.createElement('a');
   a_element.href = "/" + $(this).attr('dir');
+  a_element.className = 'item_link';
   var img_element = document.createElement('img');
   img_element.className = 'item_img';
   img_element.src = "/" + $(this).attr('dir') + '/0.JPG';
   a_element.appendChild(img_element);
   item_element.appendChild(a_element);
+
+  // 説明の追加
+  var description_element = document.createElement('div');
+  description_element.className = 'item_description';
+  var name_elem = document.createElement('div')
+  description_element.appendChild(name_elem)
+  var value_elem = document.createElement('div')
+  description_element.appendChild(value_elem)
+  item_element.appendChild(description_element);
+
   var items_list_element = document.getElementById('items');
   items_list_element.appendChild(item_element);
   $.ajax({
@@ -30,6 +41,8 @@ set_items = function(index, element) {
     success: (function(_this) {
       return function(xml) {
         console.log(xml);
+        name_elem.innerHTML = $(xml).find('name').attr('value');
+        value_elem.innerHTML = $(xml).find('value').attr('value');
       };
     })(this)
   });
