@@ -228,9 +228,12 @@ p {
 
 .item {
     display: inline-block;
-    width: calc(25% - 4px);
-    margin: 2px;
+    width: calc(33.3% - 4px);
+    margin: 2px 2px 42px 2px;
 }
 .item_img {
     width: 100%;
+}
+.item_name {
+    font-weight:bold;
 }

@@ -20,7 +20,10 @@ set_items = function(index, element) {
   var description_element = document.createElement('div');
   description_element.className = 'item_description';
   var name_elem = document.createElement('div')
+  name_elem.className = 'item_name';
   description_element.appendChild(name_elem)
+  var spec_elem = document.createElement('div')
+  description_element.appendChild(spec_elem)
   var value_elem = document.createElement('div')
   description_element.appendChild(value_elem)
   item_element.appendChild(description_element);
@@ -42,7 +45,15 @@ set_items = function(index, element) {
       return function(xml) {
         console.log(xml);
         name_elem.innerHTML = $(xml).find('name').attr('value');
-        value_elem.innerHTML = $(xml).find('value').attr('value');
+        var spec = '仕様:';
+        for (var i = 0; i < $(xml).find('specification').length; i++) {
+          if (i !== 0){
+            spec = spec + '、';
+          }
+          spec = spec + $($(xml).find('specification')[i]).attr('value');
+        }
+        spec_elem.innerHTML = spec;
+        value_elem.innerHTML = '価格:' + $(xml).find('value').attr('value');
       };
     })(this)
   });
