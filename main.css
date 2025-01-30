@@ -93,7 +93,7 @@ figure:hover figcaption {
   font-family: "Avenir Next"; }
 
 .header_menu_bar {
-  padding-left: 600px;
+  padding-left: 635px;
   display: inline-block; }
 
 .header_menu_bar ul {
@@ -228,12 +228,15 @@ p {
 
 .item {
     display: inline-block;
-    width: calc(33.3% - 4px);
-    margin: 2px 2px 42px 2px;
+    width: calc(33.3% - 20px);
+    margin: 20px 20px 0 0;
 }
 .item_img {
     width: 100%;
 }
 .item_name {
     font-weight:bold;
+}
+.item_description {
+    padding: 8px;
 }
