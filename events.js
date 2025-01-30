@@ -1,6 +1,9 @@
 (function() {
 set_param = function(param) {
   param.find('items').find('item').each(set_items);
+
+  var title_elem = document.getElementById('title');
+  title_elem.innerHTML = param.find('title').attr('value');
 };
 
 set_items = function(index, element) {
@@ -43,7 +46,6 @@ set_items = function(index, element) {
     })(this),
     success: (function(_this) {
       return function(xml) {
-        console.log(xml);
         name_elem.innerHTML = $(xml).find('name').attr('value');
         var spec = '仕様:';
         for (var i = 0; i < $(xml).find('specification').length; i++) {
