@@ -25,6 +25,8 @@ set_items = function(index, element) {
   var name_elem = document.createElement('div')
   name_elem.className = 'item_name';
   description_element.appendChild(name_elem)
+  var title_elem = document.createElement('div')
+  description_element.appendChild(title_elem)
   var spec_elem = document.createElement('div')
   description_element.appendChild(spec_elem)
   var value_elem = document.createElement('div')
@@ -55,6 +57,7 @@ set_items = function(index, element) {
           spec = spec + $($(xml).find('specification')[i]).attr('value');
         }
         spec_elem.innerHTML = spec;
+        title_elem.innerHTML = '作品:' + $(xml).find('title').attr('value');
         value_elem.innerHTML = '価格:' + $(xml).find('value').attr('value');
       };
     })(this)
