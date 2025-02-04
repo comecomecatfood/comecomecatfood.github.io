@@ -3,7 +3,7 @@ set_param = function(param) {
   param.find('items').find('item').each(set_items);
 
   var title_elem = document.getElementById('title');
-  title_elem.innerHTML = param.find('title').attr('value');
+  title_elem.innerHTML = param.find('title').attr('value') + ' ブース[' + param.find('title').attr('booth') + ']';
 };
 
 set_items = function(index, element) {

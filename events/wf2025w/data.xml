@@ -1,5 +1,5 @@
 <data>
-    <title value="ワンダーフェスティバル2025冬" />
+    <title value="ワンダーフェスティバル2025冬" booth="3-16-17 (3ホール)"/>
     <items>
       <item dir="magic_circle" new="true"/>
       <item dir="decarabia" new="false"/>

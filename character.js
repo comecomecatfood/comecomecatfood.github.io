@@ -40,9 +40,16 @@ set_param = function(param) {
 var event_list_element = document.getElementById('event_list');
 set_event = function(index, element) {
   var value = $(this).attr('value');
-  var p_element = document.createElement('p');
-  p_element.innerHTML = value;
-  event_list_element.appendChild(p_element);
+  if (value === 'ワンダーフェステイバル2025(冬)') {
+    var a_element = document.createElement('a');
+    a_element.innerHTML = value;
+    a_element.href = '/events/wf2025w/';
+    event_list_element.appendChild(a_element);
+  }else{
+    var p_element = document.createElement('p');
+    p_element.innerHTML = value;
+    event_list_element.appendChild(p_element);
+  }
 }
 
 var specification_list_element = document.getElementById('specification_list');
